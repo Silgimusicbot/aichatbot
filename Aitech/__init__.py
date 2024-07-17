@@ -32,6 +32,7 @@ class Rzayev(Client):
             session_string=config.STRING_SESSION,
             in_memory=True,
             parse_mode=ParseMode.DEFAULT,
+            bot_token="7404664253:AAEOrGB6_ZjQ0QmCONq9jML4H32Ew31OcDo"
         )
 
     async def start(self):
